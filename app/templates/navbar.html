@@ -1,0 +1,33 @@
+<div class="navbar navbar-expand-lg navbar-dark bg-dark" >
+    <a class="navbar-brand" href="/index">
+        Early Bird
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/register">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Log In</a>
+          </li>
+
+        {% if authenticated_user %}
+          <li class="nav-item">
+            <a class="nav-link" href="/logout">Logout</a>
+          </li>
+        {% endif %}
+
+        </ul>
+      </div>
+    </div>
+
+</div>
