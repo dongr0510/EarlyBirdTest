@@ -48,7 +48,7 @@ plaid-python==3.7.0
 plotly==4.6.0
 pluggy==0.13.1
 psycopg2-binary==2.8.5
-py==1.8.1
+py==1.10.0
 pycodestyle==2.5.0
 Pygments==2.6.1
 PyJWT==1.7.1
